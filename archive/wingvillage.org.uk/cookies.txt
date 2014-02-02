@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.wingvillage.org.uk	TRUE	/	FALSE	1999999999	SESS5ba887b2fa386a47526740a25e974d14	d7744acd2430a9829388de0fd0c6a869
+

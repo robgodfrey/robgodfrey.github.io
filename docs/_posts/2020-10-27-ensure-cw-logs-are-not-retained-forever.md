@@ -22,8 +22,7 @@ The following sections show:
 
 * how to identify log groups that retain log events forever
 * how to set the retention setting for log groups
-* how to bulk update log groups
-* using AWS lambda ensure log groups always have a retention setting specified.
+* ensure log groups always have a retention setting for zero effort ongoing management
 
 ## Identifying log groups that retain log events forever
 

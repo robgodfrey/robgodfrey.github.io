@@ -98,9 +98,13 @@ if __name__ == "__main__":
 
 ```
 
-### Automate retention setting using AWS Lambda
+## Automate retention setting using AWS Lambda for zero effort management
 
-The above command line script can be adapted into a lambda function (see below) to automatically ensure log groups have a retention setting. The lambda_handler function replaces the main function from the CLI example and an environment variable RETENTION_IN_DAYS is used to specify the desired retention setting for never expiring log groups.
+The above command line script can be adapted into a lambda function which can be periodically executed using an EventBridge rule to automatically ensure log groups have a retention setting.
+
+![AWS component diagram](/assets/img/posts/bulk-update-log-group-retention.png)
+
+The lambda_handler function in the example below replaces the main function from the CLI example and an environment variable RETENTION_IN_DAYS is used to specify the desired retention setting for never expiring log groups.
 
 
 ```python

@@ -204,8 +204,15 @@ functions:
 
 ```
 
+The full serverless app code is available in [Github](https://github.com/robgodfrey/enterprise-aws/blob/master/aws-cost-optimisation/cloudwatch/bulk-update-log-group-retention/readme.md).
 
-### Useful links:
+
+## Conclusion
+
+AWS Cloudwatch log groups by default will retain log events forever. To avoid Cloudwatch costs continuously increasing over time ensure all log groups specify a suitable retention setting to ensure old log events are expired. An AWS Lambda function triggered periodically by an Event Rule can be used to ensure all cloudwatch log groups have a suitable retention setting that ensures old log events are deleted and associated storage costs are managed effectively.
+
+
+## Useful links:
 * [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 * See the [aws logs describe-log-groups command docs](https://docs.aws.amazon.com/cli/latest/reference/logs/describe-log-groups.html) for usage details of the AWS command to list cloudwatch log groups
 * See the [query docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-output.html#cli-usage-output-filter) for specifying query expressions with JMESPath to control AWS CLI output

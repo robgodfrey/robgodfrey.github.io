@@ -204,7 +204,7 @@ functions:
 
 ```
 
-The full serverless app code is available in [Github](https://github.com/robgodfrey/enterprise-aws/blob/master/aws-cost-optimisation/cloudwatch/bulk-update-log-group-retention/readme.md).
+The full serverless app code is available in [Github](https://github.com/robgodfrey/enterprise-aws/blob/master/aws-cost-optimisation/cloudwatch/bulk-update-log-group-retention/).
 
 
 ## Conclusion

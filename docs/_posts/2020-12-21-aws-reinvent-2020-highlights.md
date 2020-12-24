@@ -17,6 +17,7 @@ Graviton 2 is AWS's medium/long term bet on ARM CPU based compute. Graviton 2 is
 
 ### Sustainability
 Renewable Energy - Significant year for investments by AWS in renewable energy generation. On top of an existing 2.4GW of capacity, an additional 700MW of onstream capacity was added in 2020. A further 3.4GW of future capacity has also been purchased this year, taking total purchased capacity to 6.5GW. Purchases of renewable energy capacity this year by AWS is the largest amount by any corporate in any year ever. This is a good thing, with AWS being on track to be 100% using renewable energy in it's data centres by 2025.
+
 ### Couple of swipes at competitors
 First Microsoft - Bablefish for Amazon Aurora purports to allow you to migrate applications on MS SQL server to Aurora PostgreSQL, using a TSQL query translation layer.
 
@@ -25,13 +26,12 @@ Second Amazon EKS Anywhere and ECS Anywhere allow you to use the AWS control pla
 ML had it’s own keynote this year, with many service announcements including new purpose built instance types for inference and training. SageMaker had so many service announcements, I didn't keep up.
 
 ## Selected Service Announcements
+
 ### Compute
 
 **[Graviton CPUs](https://aws.amazon.com/ec2/graviton/)** - Mentioned multiple times in several keynotes, AWS are stressing that the Graviton CPU provides the best price performance ratio (up to 40% improvements), delivering both cost savings and performance improvements.
 
-Potential for FT to save lots of money here, EC2 compute spend is about $900,000 per year. Our long term strategy should consider adoption of Graviton based compute. Adoption for EC2 workloads will need some investigation into both instance configuration (Amazon FTBase for Amazon Linux 2) and deployment approaches targeting ARM architectures.
-
-Managed services including RDS & Elasticache that support Graviton today should be straightforward to migrate today, and we should do so ASAP for easy cost saving and performance benefits. I would also expect other services (e.g. ElasticSearch) to support graviton soon.
+Managed services including RDS & Elasticache that support Graviton today should be straightforward to migrate today and I would also expect other services (e.g. ElasticSearch) to support graviton soon.
 
 **[Amazon EBS gp3 Volumes](https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-new-amazon-ebs-general-purpose-volumes-gp3/)** - next generation general purpose SSD volumes. Baseline IOPS of 3000, pricing 20% cheaper than gp2. Developers should now default to gp3 volumes for EC2 based workloads and consider migrating existing (> 1Tb) gp2 volumes. Again easy cost savings here.
 
@@ -46,7 +46,7 @@ Coming in 2021:
 
 **[AWS Lambda now supports up to 10GB memory and 6 vCPUs](https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-supports-10gb-memory-6-vcpu-cores-lambda-functions/)**
 
-**[AWS Lambda now supports self-managed Apache Kafka as an event source](https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-now-supports-self-managed-apache-kafka-as-an-event-source/)** - Potentially really useful for UPP, Membership and Data platforms. You can now convert those event consuming microservices into AWS Lambda.
+**[AWS Lambda now supports self-managed Apache Kafka as an event source](https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-now-supports-self-managed-apache-kafka-as-an-event-source/)**
 
 **[Billing granularity reduces from 100ms to 1ms](https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-changes-duration-billing-granularity-from-100ms-to-1ms/)** - Zero effort cost savings for all your lambda functions. Win.
 
@@ -104,8 +104,6 @@ Coming in 2021:
 The session talks are available on-demand at [https://virtual.awsevents.com](https://virtual.awsevents.com) and will be available on YouTube in February 2021.
 
 Note, re:Invent is not completely done with more sessions scheduled in early January.
-
-There were many good sessions including our very own Elena Georgieva talking about [democratisation of data](https://t.co/gCRB1xdLEx?amp=1).
 
 ### Builders Library Sessions
 

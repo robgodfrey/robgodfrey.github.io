@@ -44,7 +44,7 @@ lang          : 'en'             # The language setting is used in /includes/hea
 
 
 # Frontpage-Layout-Settings
-posts_with_teaser_limit  : 1     # Define how many posts should be shown with headline, teaser, image, video
+posts_with_teaser_limit  : 15     # Define how many posts should be shown with headline, teaser, image, video
 posts_list_limit         : 15    # Define how many posts should be shown in the list beneath the post(s)
 excerpt_separator: <!--more-->   # Use <!--more--> in your posts to generate an excerpt and a teaser
 

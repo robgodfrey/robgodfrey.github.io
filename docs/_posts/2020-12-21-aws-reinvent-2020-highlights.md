@@ -1,8 +1,8 @@
 ---
-title: "AWS re:Invent 2020 Highlights"
+title: 'AWS re:Invent 2020 Highlights'
 fullwidth: true
-categories: [re:Invent]
-description: "Interesting themes and announcements from the (virtual) AWS re:Invent conference 2020"
+categories: [reinvent]
+description: 'Interesting themes and announcements from the (virtual) AWS re:Invent conference 2020'
 ---
 
 <!--more-->

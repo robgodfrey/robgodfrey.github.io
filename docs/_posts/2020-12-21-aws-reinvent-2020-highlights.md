@@ -5,6 +5,8 @@ categories: [re:Invent]
 description: "Interesting themes and announcements from the (virtual) AWS re:Invent conference 2020"
 ---
 
+<!--more-->
+
 ## Keynote Themes
 
 ### Resilience through Redundancy
